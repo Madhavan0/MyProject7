@@ -1,15 +1,35 @@
-# MyProject1
+# 🎮 Project 1 – Unreal Engine Bootcamp (Week 1)
 
-This is my Week 1 Unreal Engine project from the JimDublace Bootcamp.
+This project was built as part of *Week 1* of [Jim Dublace's Game Development Bootcamp](https://www.youtube.com/@jimdublace). It focuses on core Unreal Engine concepts using *Blueprint scripting*.
 
-## About
-- Created using *Unreal Engine 5.5*
-- Contains core project files including Config, Content, and .uproject
+---
 
-## How to Use
-1. Clone or download this repository.
-2. Open the project by double-clicking MyProject7.uproject.
-3. Make sure Unreal Engine 5.5 is installed.
+## 🧠 What I Built
 
-## Notes
-This project is currently public/private (update based on your setting).
+### 🔫 Water Gun System
+- Fires water using input action (e.g., mouse or key press)
+- Blueprint logic spawns a projectile or uses line trace
+
+### 🛢 Water Refill Mechanic
+- Player walks near a barrel (bareek)
+- Refill action triggers when overlapping with the barrel
+
+### ❤ Health Component
+- Custom reusable Blueprint to manage health
+- Supports taking damage and healing
+- Applies to characters and interactive objects
+
+### 🧰 Blueprint Learning Highlights
+- Events vs Functions (when and why to use them)
+- Overlap events (OnComponentBeginOverlap)
+- Input system setup
+- Organizing logic into clean, reusable functions
+- Working with variables, references, and actors
+
+---
+
+## 🚀 How to Run This Project
+
+1. Clone or download the repository:
+   ```bash
+   git clone https://github.com/Madhavan0/MyProject1.git 
